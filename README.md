@@ -1,2 +1,2 @@
-# phatmeter
-Flask and MQTT servers to share Enviro pHAT measurements
+# pHAT Meter
+Flask and MQTT servers to share Enviro pHAT measurements.

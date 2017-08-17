@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<title>Enviro pHAT</title>
+<link rel="stylesheet" href="/static/bootstrap.min.css" />
+<link rel="stylesheet" href="/static/style.css" />
+<script src="/static/jquery.min.js"></script>
+<script src="/static/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="jumbotron text-center">
+<h1>Enviro pHAT</h1>
+</div>
+
+<div class="container">
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#table">Sensor data</a></li>
+<li><a data-toggle="tab" href="#control">Control</a></li>
+</ul>
+
+<div class="tab-content">
+
+<div id="table" class="tab-pane fade in active">
+<p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</thead>
+<tbody>
+{% for attribute, value in data %}
+<tr>
+<td>{{attribute}}</td>
+<td>{{value}}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</p>
+</div>
+
+<div id="control" class="tab-pane fade">
+<p>
+<div class="btn-toolbar">
+<a class="btn btn-default" href="/download" role="button">Download data</a>
+<a class="btn btn-default" href="/leds_on" role="button">Turn LEDs on</a>
+<a class="btn btn-default" href="/leds_off" role="button">Turn LEDs off</a>
+</div>
+</p>
+</div>
+
+</div>
+
+</body>
+
+</html>
