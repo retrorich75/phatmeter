@@ -17,7 +17,7 @@ and for connectivity here https://www.raspberrypi.org/documentation/configuratio
 pip install flask
 '''
 This is what you should see in the terminal
-!![Finding the terminal]https://github.com/retrorich75/commonfiles/blob/master/pip_install_flask.png
+![Finding the terminal](http://github.com/retrorich75/commonfiles/blob/master/pip_install_flask.png)
 
 ### The servers
 * Flask (web server)
