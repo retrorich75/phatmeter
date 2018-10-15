@@ -18,6 +18,12 @@ pip install flask
 '''
 This is what you should see in the terminal
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/pip_install_flask.png?raw=true)
+* Clone this repo
+'''
+git clone https://github.com/retrorich75/phatmeter.git
+'''
+This is what you should see in the terminal
+![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/git-clone-phatmeter.png?raw=true)
 
 ### The servers
 * Flask (web server)
