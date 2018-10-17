@@ -43,7 +43,7 @@ You should see the below output
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flask_server-running.png?raw=true)
 
 * Now open a web browser on the host name or IP address of your Pi with the port 5000
-You should see somrthing very similar to the below
+You should see something very similar to the below
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flash-web-envirophat.png?raw=true)
 
 * MQTT : share Enviro pHAT measurements for further use.
