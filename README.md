@@ -31,6 +31,21 @@ This is what you should see in the terminal
 
 ### Usage
 * Flask : show the details of the Enviro pHAT in a web browser.
+Run on in a terminal on your Pi the following commands
+'''
+cd phatmeter
+'''
+then type "./server.py"
+'''
+./server.py
+'''
+You should see the below output
+![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flask_server-running.png?raw=true)
+
+* Now open a web browser on the host name or IP address of your Pi with the port 5000
+You should see somrthing very similar to the below
+![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flash-web-envirophat.png?raw=true)
+
 * MQTT : share Enviro pHAT measurements for further use.
 
 ## Versioning
