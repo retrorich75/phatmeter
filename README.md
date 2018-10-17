@@ -12,7 +12,7 @@ and for connectivity here https://www.raspberrypi.org/documentation/configuratio
 
 ### Installing
 * Environ pHAT libraries, instructions can be found [here](https://github.com/pimoroni/enviro-phat)
-* Flask
+* Flask http://flask.pocoo.org/ (web server)
 ```
 pip install flask
 ```
@@ -22,16 +22,16 @@ This is what you should see in the terminal
 ```
 git clone https://github.com/retrorich75/phatmeter.git
 ```
-This is what you should see in the terminal
+You should see something similar to the below
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/git-clone-phatmeter.png?raw=true)
 
 ### The servers
-* Flask (web server)
-* MQTT (machine-to-machine (M2M)/"Internet of Things" server 
+* Flask (web server) - http://flask.pocoo.org/
+* MQTT (machine-to-machine (M2M)/"Internet of Things" server - http://mqtt.org/
 
 ### Usage
 * Flask : show the details of the Enviro pHAT in a web browser.
-Run on in a terminal on your Pi the following commands
+Run in a terminal on your Pi the following commands
 ```
 cd phatmeter
 ```
@@ -43,7 +43,7 @@ You should see the below output
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flask_server-running.png?raw=true)
 
 * Now open a web browser on the host name or IP address of your Pi with the port 5000
-You should see something very similar to the below
+You should see something similar to the below
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flash-web-envirophat.png?raw=true)
 
 * MQTT : share Enviro pHAT measurements for further use.
