@@ -13,15 +13,15 @@ and for connectivity here https://www.raspberrypi.org/documentation/configuratio
 ### Installing
 * Environ pHAT libraries, instructions can be found [here](https://github.com/pimoroni/enviro-phat)
 * Flask
-'''
+```
 pip install flask
-'''
+```
 This is what you should see in the terminal
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/pip_install_flask.png?raw=true)
-* Clone this repo
-'''
+* Clone this repo, command to type in a Terminal
+```
 git clone https://github.com/retrorich75/phatmeter.git
-'''
+```
 This is what you should see in the terminal
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/git-clone-phatmeter.png?raw=true)
 
@@ -32,13 +32,13 @@ This is what you should see in the terminal
 ### Usage
 * Flask : show the details of the Enviro pHAT in a web browser.
 Run on in a terminal on your Pi the following commands
-'''
+```
 cd phatmeter
-'''
+```
 then type "./server.py"
-'''
+```
 ./server.py
-'''
+```
 You should see the below output
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flask_server-running.png?raw=true)
 
