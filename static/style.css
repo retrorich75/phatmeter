@@ -48,3 +48,8 @@ tr:nth-child(even){
 th {
 	background-color: #ddd;
 }
+footer { 
+	text-align: center; 
+	font-size: 70%; 
+	font-style: italic;
+}
