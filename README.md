@@ -47,6 +47,7 @@ You should see something very similar to the below
 ![Finding the terminal](https://github.com/retrorich75/commonfiles/blob/master/flash-web-envirophat.png?raw=true)
 
 * MQTT : share Enviro pHAT measurements for further use.
+TBD
 
 ## Versioning
 * version 1.1
@@ -60,4 +61,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 * Raspberry Pi Foundation https://www.raspberrypi.org/about/ for their devices 
-* Pimoroni (Pirate, Monkey, Robot, Ninja (Pi-Mo-Ro-Ni)) pirates aka Jon Williamson and Paul Beech for their continued developement of hardware for the Raspbery Pi and other tech devices.
+* Pimoroni https://shop.pimoroni.com/ (Pirate, Monkey, Robot, Ninja (Pi-Mo-Ro-Ni)) pirates aka Jon Williamson and Paul Beech for their continued developement of hardware for the Raspbery Pi and other tech devices.
